@@ -9,3 +9,5 @@ torch
 torchvision
 requests
 cairosvg
+python-multipart
+
