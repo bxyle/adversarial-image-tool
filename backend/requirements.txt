@@ -1,0 +1,11 @@
+torch
+torchvision
+fastapi
+uvicorn
+pillow
+numpy
+scikit-image
+torch
+torchvision
+requests
+cairosvg
