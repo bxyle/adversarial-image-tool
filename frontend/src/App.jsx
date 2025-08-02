@@ -11,7 +11,7 @@ export default function App() {
     formData.append("file", file);
     formData.append("target_class", "golden retriever");
 
-    const res = await fetch("http://localhost:8000/spoof/?epsilon=0.05", {
+    const res = await fetch("https://adversarial-backend.onrender.com/spoof/?epsilon=0.05", {
       method: "POST",
       body: formData,
     });
